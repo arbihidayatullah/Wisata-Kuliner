@@ -35,4 +35,9 @@ class Auth extends BaseController
 	{
 		return view('auth/index');
 	}
+
+	public function dashboard()
+	{
+		return view('auth/dashboard');
+	}
 }
